@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(100deg,
+            #003C43,
+            #135D66);
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Set the height of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 45px;
+    color: #77B0AA;
+}
+
+.user {
+    height: 60%;
+    flex: 1;
+    /* This will make both items take up equal space */
+    /* Optional styles */
+    padding: 10px;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Optional styles */
+    background-color: lightblue;
+    padding: 10px 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    font-family: 'Short Stack', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.player {
+    font-size: 2rem;
+    color: #77B0AA;
+}
+
+.computer {
+    font-size: 2rem;
+    color: #77B0AA;
+}
+
+p {
+    font-size: 3rem;
+    color: #77B0AA;
+}
