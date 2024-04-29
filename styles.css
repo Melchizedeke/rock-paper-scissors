@@ -75,3 +75,12 @@ p {
     font-size: 3rem;
     color: #77B0AA;
 }
+
+.tag {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 45px;
+    color: #77B0AA;
+    font-size: 3rem;
+}
